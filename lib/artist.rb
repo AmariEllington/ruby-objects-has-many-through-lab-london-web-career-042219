@@ -24,8 +24,8 @@ def songs
 end
 
 def genres
-  songs.map do |x|
-    x.genre
+  songs.map do |songs|
+    songs.genre
     end
 end
 
