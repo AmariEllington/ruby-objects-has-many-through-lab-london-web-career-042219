@@ -15,7 +15,7 @@ end
 
 def songs
     Song.all.each do |songs|
-      Song.genre == self
+      songs.genre == self
     end
 end
 
