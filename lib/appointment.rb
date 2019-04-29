@@ -16,5 +16,10 @@ def self.all
     @@all
 end
 
+def patient(patient)
+    Appointment.all.each do |appointment|
+      appointment.name == patient
+end
+
 
 end
