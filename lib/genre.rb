@@ -26,6 +26,5 @@ def artist
   end
 end
 
-end
 
 end
