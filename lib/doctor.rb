@@ -24,6 +24,5 @@ def appointments
     end
 end
 
-end
 
 end
