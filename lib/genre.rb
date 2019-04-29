@@ -19,4 +19,12 @@ def songs
     end
 end
 
+
+def artist
+  songs.map do |songs|
+    songs.artist 
+end
+  
+end
+
 end
