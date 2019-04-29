@@ -19,7 +19,7 @@ end
 
 def songs
   song.all.each do |songs|
-    song.artist == self
+    songs.artist == self
   end
 end
 
