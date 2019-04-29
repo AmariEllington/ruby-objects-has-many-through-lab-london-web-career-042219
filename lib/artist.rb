@@ -20,6 +20,7 @@ end
 def songs
   song.all.each do |songs|
     song.artist == self
+  end
 end
 
 end
