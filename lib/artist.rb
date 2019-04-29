@@ -17,4 +17,9 @@ def new_song(name, genre)
     Song.new(name, self, genre)
 end
 
+def songs
+  song.all.each do |songs|
+    song.artist == self
+end
+
 end
