@@ -21,8 +21,8 @@ end
 
 
 def artist
-  songs.each do |songs|
-    songs.artist
+  songs.map do |x|
+    x.artist
   end
 end
 
