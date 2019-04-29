@@ -24,5 +24,12 @@ def appointments
     end
 end
 
+def patients
+    appointments.map do |all_paitents|
+      all_patients.patient
+    end
+end
+
+
 
 end
