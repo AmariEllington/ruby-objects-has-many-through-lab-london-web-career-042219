@@ -20,7 +20,7 @@ def songs
 end
 
 
-def artist
+def artists
   songs.map do |x|
     x.artist
   end
