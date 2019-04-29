@@ -22,9 +22,10 @@ end
 
 def artist
   songs.map do |songs|
-    songs.artist 
+    songs.artist
+  end
 end
-  
+
 end
 
 end
