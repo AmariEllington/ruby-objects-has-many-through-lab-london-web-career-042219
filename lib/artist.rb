@@ -1,6 +1,6 @@
 class Artist
 
-attr_reader :namae
+attr_accessor :namae
 
 @@all = []
 
